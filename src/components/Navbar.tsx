@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 const navigation = [
   { name: 'About', href: '/', current: true },
-  { name: 'Plugins', href: '/plugins', current: false },
+  { name: 'Contact Us', href: '/', current: false },
 //   { name: 'History', href: '#', current: false },
 ]
 
@@ -39,10 +39,10 @@ export default function Navbar() {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="web3js"
-                src="/web3js.png"
-                className="h-8 w-auto"
+                src="/edulinkx-logo.png"
+                className="h-8 w-auto bg-cream"
               />
-              <p className='text-lg text-white ml-3'>Web3.js</p>
+              <p className='text-md text-white ml-3'>Home</p>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">

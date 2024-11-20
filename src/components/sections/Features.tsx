@@ -10,33 +10,33 @@ import SectionHeading from "../SectionHeading";
 const cards = [
     {
         icon: <BellIcon />,
-        title: 'Abstractions over the JSON-RPC API',
-        desc: 'Simplifying interaction for your Developer Experience.',
+        title: 'Discover Unique Educational Assets',
+        desc: 'Explore a marketplace of exclusive NFTs designed to transform learning and reward knowledge sharing',
     },
     {
         icon: <CircleStackIcon />,
-        title: 'Dynamic contract types and full API in TypeScript',
-        desc: 'Enforced with strict types for enhanced security and safety.',
+        title: 'Unified Credentialing Across Chains',
+        desc: 'Seamlessly manage and verify credentials across multiple blockchains for secure, borderless recognition.',
     },
     {
         icon: <ArrowsRightLeftIcon />,
-        title: 'Most efficient ABI Encoder & Decoder',
-        desc: 'Include only what you need during bundling for optimized performance.',
+        title: 'Enhanced Security & Trust',
+        desc: 'Dojima’s robust security framework safeguards sensitive educational data and records.',
     },
     {
         icon: <ChatBubbleLeftRightIcon /> ,
-        title: 'ESM and CJS module builds ',
-        desc: 'Support for both ECMAScript module and CommonJS module builds for flexible integration with various project setups.',
+        title: 'Global Credentials for a Borderless Workforce ',
+        desc: 'Enable universally accessible and verifiable credentials for seamless remote work and international career opportunities.',
     },
     {
         icon: <ChatBubbleLeftRightIcon />,
-        title: 'Custom Output formatters',
-        desc: 'Format any returned value to be a string, number, BigInt, etc., providing flexibility in handling output data.',
+        title: 'Smart Advertising for Educational Innovation',
+        desc: 'Promote relevant tools and solutions to an engaged learning community.',
     },
     {
         icon: <RocketLaunchIcon />,
-        title: 'Language Aligned',
-        desc: 'to the official Ethereum terminology',
+        title: 'Empowering Students Through Active Learning',
+        desc: 'Boost engagement, inspire motivation, and foster skill development for a transformative learning experience.',
     },
 ]
 
@@ -54,7 +54,7 @@ export default function Features() {
   return (
     <div  className="relative w-full md:min-h-[70vh]" id="beta-program">
       <div className="relative flex flex-col items-center justify-center py-14 lg:pt-32 px-8">
-        <SectionHeading type="primary">Web3.js Features</SectionHeading>
+        <SectionHeading type="primary">Edulinkx Features</SectionHeading>
 
           <div className='grid md:grid-cols-2 gap-y-2 content-center lg:grid-cols-3 py-8 gap-x-2 z-10 max-w-[85%]'>
           {cards.map((card, index) => (

@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import { discordUrl, blogUrl, docsUrl, githubUrl } from "./urls";
+import { discordUrl, githubUrl } from "./urls";
 
 
 export const navigation = {
     'resources': [
         {
-            'name': 'Plugins',
-            'url': '/plugins',
+            'name': 'About',
+            'url': '/',
         },
         {
-            'name': 'Documentation',
-            'url': docsUrl,
+            'name': 'Contact Us',
+            'url': '/'
         },
 
     ],
@@ -24,8 +24,8 @@ export const navigation = {
             'url': discordUrl,
         },
         {
-            'name': 'Blog',
-            'url': blogUrl,
+            'name': 'Instagram',
+            'url': "#",
         },
     ],
     'support': [
@@ -49,12 +49,12 @@ export default function Footer() {
           <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
             <div className='space-y-8'>
               <img
-                className='w-[150px]'
-                src='/web3js.png'
+                className='w-[150px] bg-cream'
+                src='/edulinkx-logo.png'
                 alt='Web3js Logo'
               />
               <p className='text-lg leading-6 text-neutral-400'>
-                Web3js - The longest-running web3 library.
+              Blockchain Education, Redefined
               </p>
 
             </div>
@@ -62,7 +62,7 @@ export default function Footer() {
               <div className='md:grid md:grid-cols-2 md:gap-8'>
                 <div className='mt-10 md:mt-0'>
                   <h3 className='text-lg font-semibold leading-6 text-white'>
-                    Resources
+                    Quick Links
                   </h3>
                   <ul className='mt-6 space-y-4'>
                     {navigation.resources.map((item) => (
@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
           <div className='mt-4 border-t border-green-400/10 py-2 sm:mt-8 lg:mt-12'>
             <p className='py-3 text-sm text-center leading-5 text-neutral-400'>
-              &copy; {currentYear} Maintained with ❤️ by ChainSafe
+              &copy; {currentYear} Maintained with ❤️ by Edulinkx
             </p>
           </div>
       </footer>

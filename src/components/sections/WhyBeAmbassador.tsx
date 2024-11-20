@@ -1,8 +1,5 @@
 
-// import { IconArrowUpRight } from "@tabler/icons-react"
-// import { useInView } from 'react-intersection-observer';
-// import { sentenceVariant, letterVariant, splitText } from "@/styles/animations";
-// import { motion, useAnimation } from 'framer-motion';
+
 import { ChatBubbleLeftRightIcon, StarIcon, FaceSmileIcon, HeartIcon, ArrowTrendingUpIcon, BoltIcon } from '@heroicons/react/24/outline';
 
 import { useEffect } from "react";
