@@ -36,7 +36,7 @@ const cards = [
     {
         icon: <RocketLaunchIcon />,
         title: 'Empowering Students Through Active Learning',
-        desc: 'Boost engagement, inspire motivation, and foster skill development for a transformative learning experience.',
+        desc: 'Boost engagement, inspire motivation and foster skill development for a transformative learning experience.',
     },
 ]
 

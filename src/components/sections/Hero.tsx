@@ -9,7 +9,7 @@ export default function Hero() {
         <div className='mt-10 flex flex-col md:grid md:grid-cols-1 lg:grid-cols-2 justify-start items-start lg:mt-0'>
          <div className='flex flex-col gap-y-5'>         
           <SectionHeading type="primary">
-            Creating our children's future with Edulinkx
+          Creating a Better Future for Our Children with Edulinkx
           </SectionHeading>
           <div>
             <Button className='text-white py-4 px-8' type="primary" href="/">Learn More</Button>

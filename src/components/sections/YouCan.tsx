@@ -2,11 +2,11 @@ import SectionHeading from "../SectionHeading"
 import TextWithCheckIcon from "../TextWithCheckIcon"
 
 const stats = [
-    'Learn and Earn: Get token rewards for progress, participation, and guiding others',
-    'Cross-Chain Verified Credentials: Secure, portable, and instantly accessible across networks.',
-    'Decentralized Quality Control: Empowering communities to create and curate content collaboratively',
+    'Learn and Earn: Get token rewards for progress, participation and guiding others.',
+    'Cross-Chain Verified Credentials: Secure, portable and instantly accessible across networks.',
+    'Decentralized Quality Control: Empowering communities to create and curate content collaboratively.',
     'Peer-to-Peer Mentoring: Enable secure, real-time learning through direct connections.',
-    'Discover a marketplace for exclusive educational NFTs that enhance learning',
+    'Discover a marketplace for exclusive educational NFTs that enhance learning.',
     'Universally accessible, verifiable credentials for seamless remote work and global job opportunities.',
   ]
   

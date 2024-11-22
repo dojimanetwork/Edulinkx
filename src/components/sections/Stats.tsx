@@ -31,7 +31,7 @@ const stats = [
             <div className="flex justify-between">
               <SectionHeading type='primary'>Why Choose Edulinkx?</SectionHeading>
               <p className="mt-4 text-right max-w-1/2 lg:max-w-[50%] text-2xl leading-8 text-zinc-400">
-              EduLinkx provides decentralized, verifiable credentials for learners, supports instructors with secure, profitable engagement, and bridges education to employment through tokenized rewards. Below are the expected metrics.
+              EduLinkx provides decentralized verifiable credentials for learners, supports instructors with secure, profitable engagement and bridges education to employment through tokenized rewards. Below are the expected metrics.
               </p>
             </div>
             <dl className="mt-16 grid grid-cols-1 gap-0.5 text-center sm:grid-cols-2 lg:grid-cols-5 lg:gap-x-2">
