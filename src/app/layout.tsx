@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Web3js - The API to connect to Ethereum and any EVM Chain",
-  description: "web3js - the longest-running EVM API",
+  title: "Edulinkx - Blockchain Education, Redefined",
+  description: "Shaping Our Children's Future with Edulinkx",
 };
 
 const neueMontreal = localFont({
