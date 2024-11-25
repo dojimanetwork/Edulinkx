@@ -2,7 +2,7 @@
 "use client"
 
 import { useInView } from 'react-intersection-observer';
-import { motion, useAnimation } from 'framer-motion';
+import { useAnimation } from 'framer-motion';
 import { useEffect } from "react";
 import { ChatBubbleLeftRightIcon, ArrowsRightLeftIcon, RocketLaunchIcon, CircleStackIcon, BellIcon } from '@heroicons/react/24/outline';
 import SectionHeading from "../SectionHeading";
