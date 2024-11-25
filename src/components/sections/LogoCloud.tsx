@@ -17,8 +17,8 @@ export default function LogoCloud() {
           <div className="mx-auto grid max-w-lg  justify-items-center items-center gap-x-8 gap-y-12 sm:max-w-xl ">
           
             {companiesList ? companiesList.map((item, index) => (
-              <a href="https://www.dojima.network/" target="_blank">
-                <div key={index}>
+              <a href="https://www.dojima.network/" target="_blank" key={index}>
+                <div >
                   <img
                   alt={item.name}
                   src={item.imgUrl}
