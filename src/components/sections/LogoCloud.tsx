@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
+import dojimaLogo from "../../../../Edulinkx/public/logos/dojima-logo.png"
 
 export const companiesList = [
     {
         'name': 'Dojima',
-        'imgUrl': '/logos/dojima-logo.png',
+        'imgUrl': dojimaLogo,
     },
    
     
@@ -19,7 +21,7 @@ export default function LogoCloud() {
             {companiesList ? companiesList.map((item, index) => (
               <a href="https://www.dojima.network/" target="_blank" key={index}>
                 <div >
-                  <img
+                  <Image
                   alt={item.name}
                   src={item.imgUrl}
                   className="max-h-40 w-full object-contain lg:col-span-1 mt-2"

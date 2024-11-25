@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from 'next/image';
 import Button from '../Button';
 import SectionHeading from '../SectionHeading';
+import heroImg from '../../../../Edulinkx/public/2151137527.jpg'
 
 export default function Hero() {
   return (
@@ -19,7 +21,7 @@ export default function Hero() {
           </div>
           </div>
           <div className='flex flex-col w-full pt-8 lg:pt-0'>
-            <img className='w-auto lg:min-w-[800px]' src='\2151137527.jpg' alt='Abstract pattern of gemoetric shapes' />
+            <Image className='w-auto lg:min-w-[800px]' src={heroImg} alt='Abstract pattern of gemoetric shapes' />
           </div>
         </div>
       </div>

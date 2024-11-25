@@ -4,6 +4,8 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
+import sampleImage from "../../../Edulinkx/public/edulinkx-logo.png"
+import Image from 'next/image'
 
 const navigation = [
   { name: 'About', href: '/', current: true },
@@ -16,6 +18,7 @@ function classNames(...classes: string[]) {
 }
 
 export default function Navbar() {
+   const src=sampleImage
     // useEffect? 
     const [isCurrentPage, setIsCurrentPage] = useState('');
     // check history
@@ -37,9 +40,9 @@ export default function Navbar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <img
+              <Image
                 alt="web3js"
-                src="/edulinkx-logo.png"
+                src={sampleImage}
                 className="h-8 w-auto bg-cream"
               />
               <p className='text-md text-white ml-3'>Home</p>
