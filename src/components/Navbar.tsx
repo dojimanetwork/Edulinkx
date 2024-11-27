@@ -40,9 +40,9 @@ export default function Navbar() {
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex flex-shrink-0 items-center">
-              <Image
+            <img
                 alt="web3js"
-                src={sampleImage}
+                src="/edulinkx-logo.png"
                 className="h-8 w-auto bg-cream"
               />
               <p className='text-md text-white ml-3'>Home</p>

@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import dojimaLogo from "../../../../Edulinkx/public/logos/dojima-logo.png"
+// import dojimaLogo from "../../../../Edulinkx/public/logos/dojima-logo.png"
 
 export const companiesList = [
     {
         'name': 'Dojima',
-        'imgUrl': dojimaLogo,
+        'imgUrl': '/logos/dojima-logo.png',
     },
    
     

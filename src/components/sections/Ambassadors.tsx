@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import SectionHeading from "../SectionHeading"
-import teamImg from "../../../../Edulinkx/public/ambassadors/0.png"
+// import teamImg from "../../../../Edulinkx/public/ambassadors/0.png"
 import Image from "next/image"
 
 const ambassadors = [
     {
       name: 'Anum Qudsia',
       country: 'Norway',
-      imageUrl: teamImg
+      imageUrl: '/ambassadors/0.png'
     },
     
     

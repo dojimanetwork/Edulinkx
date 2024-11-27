@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { discordUrl, githubUrl } from "./urls";
-import logoImg from "../../../Edulinkx/public/edulinkx-logo.png"
-import Image from "next/image";
+// import logoImg from "../../../Edulinkx/public/edulinkx-logo.png"
+// import Image from "next/image";
 
 
 export const navigation = {
@@ -50,9 +50,9 @@ export default function Footer() {
         <div className='mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8'>
           <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
             <div className='space-y-8'>
-              <Image
+            <img
                 className='w-[150px] bg-cream'
-                src={logoImg}
+                src='/edulinkx-logo.png'
                 alt='Web3js Logo'
               />
               <p className='text-lg leading-6 text-neutral-400'>
