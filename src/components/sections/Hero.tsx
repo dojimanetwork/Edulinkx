@@ -6,9 +6,9 @@ import SectionHeading from '../SectionHeading';
 
 export default function Hero() {
   return (
-    <div className="relative py-24 md:py-0 lg:h-screen w-full px-4 md:px-8 ">
-      <div className="relative flex flex-col max-w-7xl lg:py-48">
-        <div className='mt-10 flex flex-col md:grid md:grid-cols-1 lg:grid-cols-2 justify-start items-start lg:mt-0'>
+    <div className="relative  md:py-0 lg:h-screen w-full px-4 md:px-8 container mx-auto">
+      {/* <div className="relative flex flex-col max-w-7xl lg:py-48"> */}
+        <div className=' flex flex-col md:py-[90px] py-10 md:grid md:grid-cols-1 lg:grid-cols-2 justify-start items-start lg:mt-0 gap-6'>
          <div className='flex flex-col gap-y-5'>         
           <SectionHeading type="primary">
           Creating a Better Future for Our Children with Edulinkx
@@ -21,10 +21,10 @@ export default function Hero() {
           </div>
           </div>
           <div className='flex flex-col w-full pt-8 lg:pt-0'>
-          <img className='w-auto lg:min-w-[800px]' src='\2151137527.jpg' alt='Abstract pattern of gemoetric shapes' />
+          <img className='w-auto rounded-xl lg:min-w-[800px]' src='\2151137527.jpg' alt='Abstract pattern of gemoetric shapes' />
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   )
 }

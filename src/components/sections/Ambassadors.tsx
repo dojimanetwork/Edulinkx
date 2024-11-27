@@ -5,9 +5,9 @@ import SectionHeading from "../SectionHeading"
 
 const ambassadors = [
     {
-      name: 'Anum Qudsia',
-      country: 'Norway',
-      imageUrl: '/ambassadors/0.png'
+      name: 'Sattwik Das',
+      country: 'Founder',
+      imageUrl: '/ambassadors/sattwik_pic.jpg'
     },
     
     
@@ -26,7 +26,7 @@ const ambassadors = [
             <SectionHeading type="primary">Core Team Members</SectionHeading>
           </div>
           <ul
-            className="mx-auto mt-20 max-w-xl grid-cols-1 gap-6  lg:mx-0 lg:max-w-none  lg:gap-8"
+            className="mx-auto mt-20 max-w-xl grid-cols-1 gap-6   lg:gap-8"
           >
             {ambassadors.map((person) => (
               <li key={person.name} className="rounded-2xl bg-bg px-2  py-10">

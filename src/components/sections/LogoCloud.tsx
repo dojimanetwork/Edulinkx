@@ -13,7 +13,7 @@ export const companiesList = [
 
 export default function LogoCloud() {
     return (
-      <div className=" py-24 sm:py-32">
+      <div className="">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className='text-4xl text-gray-300 text-center py-2'>Powered by</h2>
           <div className="mx-auto grid max-w-lg  justify-items-center items-center gap-x-8 gap-y-12 sm:max-w-xl ">
