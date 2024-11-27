@@ -21,7 +21,7 @@ export default function LogoCloud() {
             {companiesList ? companiesList.map((item, index) => (
               <a href="https://www.dojima.network/" target="_blank" key={index}>
                 <div >
-                  <Image
+                  <img
                   alt={item.name}
                   src={item.imgUrl}
                   className="max-h-40 w-full object-contain lg:col-span-1 mt-2"

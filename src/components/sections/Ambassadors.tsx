@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import SectionHeading from "../SectionHeading"
 // import teamImg from "../../../../Edulinkx/public/ambassadors/0.png"
-import Image from "next/image"
+// import Image from "next/image"
 
 const ambassadors = [
     {
@@ -30,7 +30,7 @@ const ambassadors = [
           >
             {ambassadors.map((person) => (
               <li key={person.name} className="rounded-2xl bg-bg px-2  py-10">
-                <Image alt={person.name} src={person.imageUrl} className="mx-auto h-24 w-24 rounded-full" />
+                <img alt={person.name} src={person.imageUrl} className="mx-auto h-24 w-24 rounded-full" />
                 <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">{person.name}</h3>
                 <h3 className="mt-1 text-base font-semibold leading-7 tracking-tight text-white">{person.country}</h3>
               </li>
