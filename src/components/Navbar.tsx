@@ -4,7 +4,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
-import sampleImage from "../../../Edulinkx/public/edulinkx-logo.png"
+// import sampleImage from "../../../Edulinkx/public/edulinkx-logo.png"
 import Image from 'next/image'
 
 const navigation = [
@@ -18,7 +18,7 @@ function classNames(...classes: string[]) {
 }
 
 export default function Navbar() {
-   const src=sampleImage
+  //  const src=sampleImage
     // useEffect? 
     const [isCurrentPage, setIsCurrentPage] = useState('');
     // check history
